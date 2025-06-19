@@ -1,0 +1,13 @@
+form
+{
+    border: 1px solid rgb(7, 6, 6);
+    padding: 20px;
+    border-radius: 10px;
+    transition: .3s;
+    margin: auto;
+    max-width: 700px;
+}
+label
+{
+    font-size: 18px;
+}

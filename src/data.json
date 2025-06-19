@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "id": "3364",
+      "firstName": "1q2",
+      "lastName": "12",
+      "email": "122@qw.wd",
+      "mobile": "9876543215",
+      "birthDate": "05/06/1929",
+      "gender": "female",
+      "country": "UK"
+    },
+    {
+      "id": "5dfe",
+      "firstName": "w",
+      "lastName": "12",
+      "email": "122@qw.wd",
+      "mobile": "9876543215",
+      "birthDate": "05/06/1929",
+      "gender": "female",
+      "country": "USA"
+    }
+  ]
+}
