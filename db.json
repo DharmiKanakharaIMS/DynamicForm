@@ -1,0 +1,29 @@
+{
+  "fields":[
+     { "name": "firstName", "label": "First Name", "type": "text","required":"true" },
+  { "name": "lastName", "label": "Last Name", "type": "text" ,"required":"true" },
+  { "name": "email", "label": "Email", "type": "email" ,"pattern":"^[a-z0-9._]+@[a-z0-9.]+.[a-z]{2,4}$","required":"true"  },
+  { "name": "mobile", "label": "Mobile Number", "type": "text" ,"required":"true","pattern":"^\\d{10}$"},
+   { "name": "birthDate", "label": "Birth Date", "type": "date" ,"required":"true"},
+    { "name": "password", "label": "Password", "type": "password" ,"required":"true"},
+    { "name": "gender", "label": "Gender", "type": "radio" ,"required":"true",
+    "options": [
+    { "label": "Male", "value": "male" },
+    { "label": "Female", "value": "female" },
+      { "label": "Other", "value": "other" }
+  ]
+  },
+   { "name": "country", "label": "Country", "type": "dropdown" ,"required":"true",
+    "options":
+   [
+      {"label":"India","value":"India"},
+      {"label":"USA","value":"USA"},
+      {"label":"Canada","value":"Canada"},
+      {"label":"Japan","value":"Japan"},
+      {"label":"UK","value":"UK"},
+      {"label":"Russia","value":"Russia"},
+      {"label":"Germany","value":"Germany"}
+   ]
+    }
+  ]
+}
